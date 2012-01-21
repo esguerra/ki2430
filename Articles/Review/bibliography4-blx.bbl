@@ -1,0 +1,62 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{avihoo2011}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Avihoo}{A.}%
+     {Assaf}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Churkin}{C.}%
+     {Alexander}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barash}{B.}%
+     {Danny}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Algorithms; Base Sequence; Molecular Sequence Data; Nucleic Acid
+  Conformation; RNA Folding; RNA, chemistry/genetics; Software; Thermodynamics}
+  \strng{namehash}{AACABD1}
+  \strng{fullhash}{AACABD1}
+  \field{sortinit}{A}
+  \verb{doi}
+  \verb 10.1186/1471-2105-12-319
+  \endverb
+  \field{pages}{319}
+  \field{title}{R{NAexinv: An Extended Inverse RNA Folding from Shape and
+  Physical Attributes to Sequences}}
+  \verb{url}
+  \verb http://dx.doi.org/10.1186/1471-2105-12-319
+  \endverb
+  \field{volume}{12}
+  \verb{file}
+  \verb ../avihoo2011.pdf
+  \endverb
+  \field{journaltitle}{BMC Bioinformatics}
+  \field{year}{2011}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

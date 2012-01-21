@@ -1,0 +1,66 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{harmanci2007}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Harmanci}{H.}%
+     {Arif~Ozgun}{A.~O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sharma}{S.}%
+     {Gaurav}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mathews}{M.}%
+     {David~H.}{D.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Models, Statistical; Predictive Value of Tests; RNA,
+  chemistry/genetics; Sequence Alignment, methods; Sequence Analysis, RNA,
+  methods; Software}
+  \strng{namehash}{HAOSGMDH1}
+  \strng{fullhash}{HAOSGMDH1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb 10.1186/1471-2105-8-130
+  \endverb
+  \field{pages}{130}
+  \field{title}{{Efficient pairwise RNA structure prediction using
+  probabilistic alignment constraints in Dynalign}}
+  \verb{url}
+  \verb http://dx.doi.org/10.1186/1471-2105-8-130
+  \endverb
+  \field{volume}{8}
+  \list{institution}{1}{%
+    {>}%
+  }
+  \verb{file}
+  \verb ../harmanci2007.pdf
+  \endverb
+  \field{journaltitle}{BMC Bioinformatics}
+  \field{year}{2007}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

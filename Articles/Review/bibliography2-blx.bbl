@@ -1,0 +1,46 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{eddy2004}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Eddy}{E.}%
+     {Sean~R.}{S.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ESR1}
+  \strng{fullhash}{ESR1}
+  \field{sortinit}{E}
+  \verb{doi}
+  \verb 10.1038/nbt1104-1457
+  \endverb
+  \field{pages}{1457\bibrangedash 1458}
+  \field{title}{{How do RNA Folding Algorithms Work?}}
+  \field{volume}{22}
+  \verb{file}
+  \verb ../eddy2004.pdf
+  \endverb
+  \field{journaltitle}{Nature Biotechnology}
+  \field{year}{2004}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

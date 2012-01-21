@@ -1,0 +1,43 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{baker2011}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Baker}{B.}%
+     {Monya}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BM1}
+  \strng{fullhash}{BM1}
+  \field{sortinit}{B}
+  \field{pages}{379\bibrangedash 383}
+  \field{title}{{Long Noncoding RNA's: The Search for Function}}
+  \field{volume}{8}
+  \verb{file}
+  \verb ../baker2011_lncRNA.pdf
+  \endverb
+  \field{journaltitle}{Nature Methods}
+  \field{year}{2011}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
