@@ -10,7 +10,11 @@
   volume = {12},
   pages = {319},
   __markedentry = {[esguerra:6]},
-  lasbtract = {RNAexinv is an interactive java application that performs RNA sequence
+  doi = {10.1186/1471-2105-12-319},
+  file = {../avihoo2011.pdf},
+  keywords = {Algorithms; Base Sequence; Molecular Sequence Data; Nucleic Acid Conformation;
+	RNA Folding; RNA, chemistry/genetics; Software; Thermodynamics},
+  labstract = {RNAexinv is an interactive java application that performs RNA sequence
 	design, constrained to yield a specific RNA shape and physical attributes.
 	It is an extended inverse RNA folding program with the rationale
 	behind that the generated sequences should not only fold into a desired
@@ -39,10 +43,6 @@
 	more or less nucleotide at the expense of another, as long as the
 	global shape is preserved. This allows the insertion of physical
 	observables as constraints. RNAexinv is available at http://www.cs.bgu.ac.il/~RNAexinv.},
-  doi = {10.1186/1471-2105-12-319},
-  file = {../avihoo2011.pdf},
-  keywords = {Algorithms; Base Sequence; Molecular Sequence Data; Nucleic Acid Conformation;
-	RNA Folding; RNA, chemistry/genetics; Software; Thermodynamics},
   medline-pst = {epublish},
   owner = {RNA Secondary Structure},
   pii = {1471-2105-12-319},
@@ -72,12 +72,12 @@
   year = {2004},
   volume = {22},
   pages = {1457-1458},
-  lasbtract = {Programs such as {MFOLD} and {V}ienna{RNA} are widely used to predict
+  doi = {10.1038/nbt1104-1457},
+  file = {../eddy2004.pdf},
+  labstract = {Programs such as {MFOLD} and {V}ienna{RNA} are widely used to predict
 	{RNA} secondary structures. {H}ow do these algorithms work? {W}hy
 	can't they predict {RNA} pseudoknots? {H}ow accurate are they, and
 	will they get better?},
-  doi = {10.1038/nbt1104-1457},
-  file = {../eddy2004.pdf},
   owner = {RNA Secondary Structure},
   timestamp = {2012.01.20}
 }
@@ -91,7 +91,12 @@
   volume = {8},
   pages = {130},
   __markedentry = {[esguerra:]},
-  lasbtract = {Joint alignment and secondary structure prediction of two RNA sequences
+  doi = {10.1186/1471-2105-8-130},
+  file = {../harmanci2007.pdf},
+  institution = {>},
+  keywords = {Models, Statistical; Predictive Value of Tests; RNA, chemistry/genetics;
+	Sequence Alignment, methods; Sequence Analysis, RNA, methods; Software},
+  labstract = {Joint alignment and secondary structure prediction of two RNA sequences
 	can significantly improve the accuracy of the structural predictions.
 	Methods addressing this problem, however, are forced to employ constraints
 	that reduce computation by restricting the alignments and/or structures
@@ -125,11 +130,6 @@
 	structural prediction. This extends the practical reach of these
 	methods to longer length sequences. The revised Dynalign code is
 	freely available for download.},
-  doi = {10.1186/1471-2105-8-130},
-  file = {../harmanci2007.pdf},
-  institution = {>},
-  keywords = {Models, Statistical; Predictive Value of Tests; RNA, chemistry/genetics;
-	Sequence Alignment, methods; Sequence Analysis, RNA, methods; Software},
   medline-pst = {epublish},
   owner = {RNA Secondary Structure},
   pii = {1471-2105-8-130},
@@ -146,7 +146,13 @@
   year = {1978},
   volume = {35},
   pages = {68-82},
-  lasbtract = {A simplified (two-base) version of the problem of planar folding of
+  annotation = {Here the algorithm to find the maximum number of base-pairs is presented
+	for the first time. The previous papers of Tinoco and Uhlenbeck did
+	not aim at solving the dynamic programing problem but were only interested
+	in computing a free-energy based score assuming that single base-pair
+	energies could be additive.},
+  file = {../nussinov1978.pdf},
+  labstract = {A simplified (two-base) version of the problem of planar folding of
 	long chains (e.g. RNA and DNA biomolecules) is formulated as a matching
 	problem. The chain is prescribed as a loop or circular sequence of
 	letter A and B, n units long. A matching here means a set of A-B
@@ -173,12 +179,6 @@
 	construction. A maximum matching is presented for the J-gene of the
 	phiX174 DNA virus. We conclude by stating some problems requiring
 	furter study.},
-  annotation = {Here the algorithm to find the maximum number of base-pairs is presented
-	for the first time. The previous papers of Tinoco and Uhlenbeck did
-	not aim at solving the dynamic programing problem but were only interested
-	in computing a free-energy based score assuming that single base-pair
-	energies could be additive.},
-  file = {../nussinov1978.pdf},
   owner = {RNA Secondary Structure},
   timestamp = {2012.01.20}
 }
