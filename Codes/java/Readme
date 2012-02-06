@@ -1,0 +1,13 @@
+A Java GUI has been developed by Norman Casagrande and Patrick Dekker
+to use the Nussinov algorithm to predict secondary structure folds of
+RNA sequences. At the same time the GUI explains step by step how to
+fill up the dynamic programing table.
+
+The java app can be found at the internet access:
+
+http://ultrastudio.org/en/Nussinov_algorithm
+
+But can also be run by opening the file:
+baba/nussinov.htm
+In a java enabled browser like fedora or google-chrome.
+

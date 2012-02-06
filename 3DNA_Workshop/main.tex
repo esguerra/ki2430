@@ -1,0 +1,77 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Main Latex Page 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[pdftex,12pt, oneside]{article}
+%\draft
+\usepackage{amsmath, amstext, amsfonts, amssymb}
+\renewcommand{\thefootnote}{\roman{footnote}}
+\usepackage{amsmath, amstext, amsfonts, amssymb}
+\usepackage[pdftex]{graphicx}
+\usepackage{subfigure, longtable}
+\usepackage{float}
+\usepackage{rotating}
+%\usepackage{slashbox}
+\usepackage{longtable}
+\usepackage{url}
+\usepackage{setspace}
+\usepackage{pdflscape}
+\usepackage{threeparttable}
+\usepackage{fancyvrb}
+%\usepackage[small,bf]{caption}
+%\usepackage{capt-of}
+\singlespacing
+%\usepackage[left=2.00cm,bottom=2.00cm,top=2.00cm,right=1.00cm]{geometry}
+\usepackage[left=2.54cm,bottom=2.00cm,top=2.00cm,right=2.54cm]{geometry}
+%\usepackage[left=1.5in,bottom=1.0in,top=1.0in,right=1.0in]{geometry}
+\usepackage{chapterbib}
+\includeonly{chapter1}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Fonts in Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{times}
+%\usepackage{pslatex}
+%\usepackage{newcent}
+%\usepackage{palatcm}
+%\usepackage{palatino}
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{helvet}
+\renewcommand*\familydefault{\sfdefault}
+%\renewcommand*{\encodingdefault}{T1}
+% For more options go to: http://www.tug.dk/FontCatalogue/
+
+\usepackage[pdftex]{hyperref}%%Note: In TeXShop hyperref needs to be at the end of package calls.
+%\hypersetup{
+%  pdftitle = {Mauricio Esguerra Doctoral Thesis},
+%  pdfkeywords = {rna, persistence length, rna motifs},
+%  pdfauthor = {Mauricio Esguerra},
+%  bookmarks = true
+%}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Workshop Chapters
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Using 3DNA: A Short Introduction}
+\author{Mauricio Esguerra Neira}
+\date{\today}
+%\date{April 20, 2011}
+
+\begin{document}
+%  \bibliographystyle{nar}
+    %  Title and other sections that come before the body  of the document
+    %  
+    %  \include{proposal-title}
+    \maketitle
+    \tableofcontents
+    % Now lets include the body of the document ...
+    % Each file corresponds to a separate chapter.
+    \include{chapter1} % Background Introduction
+%    \include{chapter2} % Methods and Data
+%    \include{chapter3} % Results
+%    \include{chapter4} % Conclusions
+\end{document}
