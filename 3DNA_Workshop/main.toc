@@ -1,8 +1,8 @@
 \gdef \the@ipfilectr {@-1}
 \contentsline {section}{\numberline {1}Installation}{2}{section.1}
 \contentsline {section}{\numberline {2}fiber}{2}{section.2}
-\contentsline {section}{\numberline {3}find\_pair}{3}{section.3}
+\contentsline {section}{\numberline {3}find\_pair}{2}{section.3}
 \contentsline {section}{\numberline {4}analyze}{3}{section.4}
-\contentsline {section}{\numberline {5}rebuild}{4}{section.5}
+\contentsline {section}{\numberline {5}rebuild}{3}{section.5}
 \contentsline {section}{\numberline {6}Exercises}{4}{section.6}
 \gdef \the@ipfilectr {}

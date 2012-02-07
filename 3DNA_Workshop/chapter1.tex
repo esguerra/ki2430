@@ -27,7 +27,9 @@ export X3DNA=/home/yourusername/X3DNA
 export PATH=$PATH:$X3DNA/bin
 \end{Verbatim}
 A detailed explanation  of how to configure X3DNA can  be found in the
-pdf file \textbf{x3dna\_v1.5.pdf} found in the X3DNA/doc folder.
+pdf file  \textbf{x3dna\_v1.5.pdf} found  in the X3DNA/doc  folder. If
+you're  stuck in  the installation  process feel  free to  drop  me at
+\url{mauricio.esguerra@gmail.com}
 
 \section{fiber}
 The \textrm{fiber} program included in  the 3DNA package allows you to
@@ -71,7 +73,7 @@ A$\cdot$G.
 \section{analyze}
 The \textrm{analyze}  program of the 3DNA software  package allows you
 to compute the base-pair and  base-pair step parameters associated with a
-given nucleic  acid structure among  other analysis features  such as
+given nucleic  acid structure, among  other analysis features,  such as
 computing the overlap areas  between stacked nucleic acid bases, sugar
 conformations, and sugar-phosphate backbone torsion angles.\\
 A requirement of the \textrm{analyze} program is that you have to run the
@@ -88,7 +90,7 @@ using the \textrm{find\_pair} program:
 analyze 1ehz.inp
 \end{Verbatim}
 Notice that  you can run the  \textrm{find\_pair} and \textrm{analyze}
-program in just one line in the terminal by issuing the command:
+program in one line by issuing the command:
 \begin{Verbatim}
 find_pair 1ehz.pdb stdout | analyze
 \end{Verbatim}
@@ -104,11 +106,11 @@ that, rebuild nucleic acid structures. It uses as input either a set of base
 step, or base-pair step parameters, or a set of helical parameters to
 create a pdb file.
 To  test  the  rebuild   program  first  run  \textrm{find\_pair}  and
-\textrm{analyze} the A-RNA structure you previously created:
+\textrm{analyze} on the A-RNA structure you previously created:
 \begin{Verbatim}
 find_pair A-RNA.pdb stdout | analyze
 \end{Verbatim}
-Issuing  the previous command must  have created  a new  file called
+Issuing  the previous command must  have created  a file called
 \textit{bp\_step.par}.
 Open this file in a text editor and change the Twist values from 31.5 degrees
 to a smaller value, say 25.0 degrees, and save the new file with the name
@@ -125,18 +127,35 @@ command, in the following way:
 \begin{Verbatim}
 cp_std RNA
 rebuild -atomic undertwisted.par undertwisted.pdb
-\end{Verbatim}
-Now  rebuild   a  pdb  file  using  the   unmmodified  base-pair  step
-parameters,  that  is,  using  the  \textit{bp\_step.par} file,  and  open  both
-structures in  a molecular visualization program and  confirm that one
-helix is undertwisted with respect to the original.
+\end{Verbatim} 
+Now rebuild a  pdb file using the unmmodified base-pair
+step  parameters, that  is, using  the  original \textit{bp\_step.par}
+file. Open  both structures in  a molecular visualization  program and
+confirm that one helix is undertwisted with respect to the original.
 
 \section{Exercises}
-1. Run  \textrm{find\_pair} and analyze on your A-RNA structure  and modify the
-resulting   \textit{bp\_step.par}  file  so   that  the   sequence  is
-AAAGGGUUUCCC. Use rebuild to generate such new sequence.
-2.  Download  the  file   with  PBD\_ID:  1AOI,  that  is,  chromatins
-nucleosome core particle. Run it through \textrm{find\_pair}
+\begin{enumerate}
+\item{Run   \textrm{find\_pair}  and  \textrm{analyze}   on  your  A-RNA
+structure and modify the  resulting \textit{bp\_step.par} file so that
+the sequence is AAAGGGUUUCCC instead of AAAAAAAAAAAA.\\
+Use rebuild to generate a pdb file with the AAAGGGUUUCCC sequence.}
+\item{Download the file with PBD\_ID: 1aoi, that is, chromatin's
+nucleosome core particle,  from the protein data bank  website. Run it
+through \textrm{find\_pair} and \textrm{analyze}.}
+\item{Produce a  ``publication quality''  plot of Slide  vs. base-pair
+    step number  for the chromatin  parameters you've computed  in the
+    previous exercise.  Ask around (e.g.  drop me a line) for which solutions
+    are  good  for  such  a  task.\\ I  recommend  \textrm{xmgrace},  the
+   \textrm{matplotlib} library of \textrm{python}, and  \textrm{igor-pro}.}
+\item{Repeat the recipe for Twist vs. base-pair step number (bpsn), and Roll
+    vs. bpsn.}
+\item{Compare your  graphs to  Figure 2 of  the journal  article ``DNA
+    Sequence-Directed   Organization  of   Chromatin:  Structure-Based
+    Computational    Analysis   of    Nucleosome-Binding   Sequences''
+    \textit{Biophysical Journal}, \textbf{2009}, 96, 2245-2260.\\  What
+    regularities do  you see?\\  How would you  describe the  DNA wrapping
+    around the nucleosome in terms of Sliding, Twisting, and Rolling?}
+\end{enumerate}
 
 
 
