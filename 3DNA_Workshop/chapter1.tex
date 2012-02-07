@@ -13,7 +13,7 @@ To install 3DNA you will first have to download the software from:\\
 download the program.\\
 Once   registered    you'll   be    able   to   download    the   file
 \textbf{Linux\_X3DNA\_v2.0.tar.gz} if you  selected the Linux version.\\
-To uncompress issue the following command in a terminal
+To uncompress, issue the following command in a terminal:
 \begin{Verbatim}
 tar -xvzf Linux_X3DNA_v2.0.tar.gz
 \end{Verbatim}
@@ -28,26 +28,27 @@ export PATH=$PATH:$X3DNA/bin
 \end{Verbatim}
 A detailed explanation  of how to configure X3DNA can  be found in the
 pdf file  \textbf{x3dna\_v1.5.pdf} found  in the X3DNA/doc  folder. If
-you're  stuck in  the installation  process feel  free to  drop  me at
+you're stuck in the installation process feel free to drop me a line at
 \url{mauricio.esguerra@gmail.com}
 
 \section{fiber}
 The \textrm{fiber} program included in  the 3DNA package allows you to
-easily  generate  protein data  bank  (pdb)  files of  fiber
-models of common nucleic acid conformations, for example A-DNA, B-DNA,
-and Z-DNA.  To get a list of  all possible fiber models  which you can
-reconstruct using \textrm{fiber}, type:
+easily  generate  protein  data  bank  (pdb)  files  of  fiber  models
+corresponding to common nucleic acid conformations, for example A-DNA,
+B-DNA, and  Z-DNA.  To get a  list of all possible  fiber models which
+you can reconstruct using \textrm{fiber}, type:
 \begin{Verbatim}
 fiber -l
 \end{Verbatim}
-If you type \textrm{fiber} in the terminal you  will get a usage
+If you type \textrm{fiber} alone in the terminal you will get a usage
 message.\\
 Stop and read the usage message carefully.\\
-Now, you  know that the crystal structures of A-RNA and B-DNA must
-have a total of 11 and 10 residues per turn respectively, so, go ahead
-and use  \textrm{fiber} to make  an A-RNA with  12 residues and  a B-DNA
-with  11 residues.  Using a  molecular visualization  program  such as
-pymol, vmd,  or chimera check  the generated structure  to corroborate
+
+\noindent Now, you know that the crystal structures of A-RNA and B-DNA
+must have a total of 11  and 10 residues per turn respectively, so, go
+ahead and use  \textrm{fiber} to make an A-RNA with  12 residues and a
+B-DNA with 11 residues.   Using a molecular visualization program such
+as pymol, vmd, or chimera check the generated structure to corroborate
 that you have the correct number of residues per turn.
 
 \section{find\_pair}
@@ -59,54 +60,55 @@ find_pair
 \end{Verbatim} 
 Now go  to the protein data bank website  at \url{http://www.pdb.org}
 and download the  structure with PDB\_ID: 1ehz. This  is the structure
-for yeast phenylalanine tRNA.
+for yeast phenylalanine tRNA. 
 Run it through \textrm{find\_pair}:
 \begin{Verbatim}
 find_pair 1ehz.pdb 1ehz.inp
 \end{Verbatim}
-You will  get a file named  1ehz.inp. Go ahead and  open the resulting
-file in  a text editor and  you will see  that the \textrm{find\_pair}
-program has found the  canonical Watson-Crick base-pairs G$\cdot$C and
-A$\cdot$U, as  well as non-canonical base-pairs such  as G$\cdot$U and
-A$\cdot$G.
+The ouput  will be a file  named \textit{1ehz.inp}. Go  ahead and open
+the  resulting  file in  a  text  editor and  you  will  see that  the
+\textrm{find\_pair}  program  has  found  the  canonical  Watson-Crick
+base-pairs   G$\cdot$C  and  A$\cdot$U,   as  well   as  non-canonical
+base-pairs such as G$\cdot$U and A$\cdot$G.
 
 \section{analyze}
 The \textrm{analyze}  program of the 3DNA software  package allows you
-to compute the base-pair and  base-pair step parameters associated with a
-given nucleic  acid structure, among  other analysis features,  such as
-computing the overlap areas  between stacked nucleic acid bases, sugar
-conformations, and sugar-phosphate backbone torsion angles.\\
-A requirement of the \textrm{analyze} program is that you have to run the
-\textrm{find\_pair} program beforehand.\\
+to  compute the  base-pair, and  base-pair step  parameters associated
+with a  given nucleic acid structure. Analyze  provides additional analysis
+features such as computing the overlap areas between stacked nucleic acid
+bases,  sugar  conformations,  and  sugar-phosphate  backbone  torsion
+angles.\\ 
+A  requirement of the  \textrm{analyze} program is  that you
+have to run the \textrm{find\_pair} program beforehand.\\ 
 Go ahead and read the usage message of the analyze program by typing:
 \begin{Verbatim}
 analyze --help
 \end{Verbatim}
 in your terminal.\\
 
-\noindent Now run the analyze  program on the file previously produced
-using the \textrm{find\_pair} program:
+\noindent Now run the analyze  program on the previously produced
+file using the \textrm{find\_pair} program:
 \begin{Verbatim}
 analyze 1ehz.inp
 \end{Verbatim}
 Notice that  you can run the  \textrm{find\_pair} and \textrm{analyze}
-program in one line by issuing the command:
+programs in one line by issuing the command:
 \begin{Verbatim}
 find_pair 1ehz.pdb stdout | analyze
 \end{Verbatim}
-This  command   will  produce  a  wealth  of   files  with  structural
+This command  will produce a  wealth of files with  derived structural
 information, but  the main one  will just have  the name of  the input
-file followed  by the .out extension.  That is, you should  now have a
-1ehz.out file in your folder. Go ahead and take a look at the 1ehz.out
-file in your favorite text editor.
+file followed by  the .out extension.  That is, you  should now have a
+\textit{1ehz.out} file in your folder. Go ahead and take a look at the
+\textit{1ehz.out} file in your favorite text editor.
 
 \section{rebuild}
-The very useful 3DNA  program called  \textrm{rebuild} can  do just
-that, rebuild nucleic acid structures. It uses as input either a set of base
-step, or base-pair step parameters, or a set of helical parameters to
-create a pdb file.
-To  test  the  rebuild   program  first  run  \textrm{find\_pair}  and
-\textrm{analyze} on the A-RNA structure you previously created:
+The very useful 3DNA program called \textrm{rebuild} can do just that,
+rebuild nucleic acid structures. It uses as input either a set of base
+step, or base-pair step parameters,  or a set of helical parameters to
+create  a   pdb  file.   To   test  the  rebuild  program   first  run
+\textrm{find\_pair}  and \textrm{analyze} on  the A-RNA  structure you
+previously created:
 \begin{Verbatim}
 find_pair A-RNA.pdb stdout | analyze
 \end{Verbatim}
@@ -155,6 +157,9 @@ through \textrm{find\_pair} and \textrm{analyze}.}
     \textit{Biophysical Journal}, \textbf{2009}, 96, 2245-2260.\\  What
     regularities do  you see?\\  How would you  describe the  DNA wrapping
     around the nucleosome in terms of Sliding, Twisting, and Rolling?}
+\item{Go  to the  website: \url{http://w3dna.rutgers.edu}  and analyze
+    the structure of your choice, for example the large subunit of the
+  ribosome.}
 \end{enumerate}
 
 
