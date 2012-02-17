@@ -50,6 +50,7 @@
       <file>bibliography3-blx.aux</file>
       <file>bibliography4-blx.aux</file>
       <file>bibliography5-blx.aux</file>
+      <file>bibliography6-blx.aux</file>
       <file>bibliography-blx.bib</file>
     </provides>
     <requires type="dynamic">
@@ -59,6 +60,7 @@
       <file>bibliography3-blx.bbl</file>
       <file>bibliography4-blx.bbl</file>
       <file>bibliography5-blx.bbl</file>
+      <file>bibliography6-blx.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-compat.def</file>
@@ -224,6 +226,33 @@
     </provides>
     <requires type="dynamic">
       <file>bibliography5-blx.aux</file>
+      <file>bibliography-blx.bib</file>
+    </requires>
+    <requires type="editable">
+      <file>../secstr.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
+    </requires>
+  </external>
+  <external package="biblatex" priority="5" active="0">
+    <generic>bibtex</generic>
+    <cmdline>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
+      <infile>bibliography6-blx</infile>
+    </cmdline>
+    <input>
+      <file>bibliography6-blx.aux</file>
+    </input>
+    <output>
+      <file>bibliography6-blx.bbl</file>
+    </output>
+    <provides type="dynamic">
+      <file>bibliography6-blx.bbl</file>
+    </provides>
+    <requires type="dynamic">
+      <file>bibliography6-blx.aux</file>
       <file>bibliography-blx.bib</file>
     </requires>
     <requires type="editable">

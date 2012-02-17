@@ -16,28 +16,35 @@
   {}
 \endgroup
 
-\entry{eddy2004}{article}{}
+\entry{howard2000}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {Eddy}{E.}%
-     {Sean~R.}{S.~R.}%
+     {Howard}{H.}%
+     {Kathleen~P.}{K.~P.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{ESR1}
-  \strng{fullhash}{ESR1}
-  \field{sortinit}{E}
+  \strng{namehash}{HKP1}
+  \strng{fullhash}{HKP1}
+  \field{sortinit}{2}
   \verb{doi}
-  \verb 10.1038/nbt1104-1457
+  \verb 10.1021/ed077p1469
   \endverb
-  \field{pages}{1457\bibrangedash 1458}
-  \field{title}{{How do RNA Folding Algorithms Work?}}
-  \field{volume}{22}
+  \field{pages}{1469\bibrangedash 1471}
+  \field{title}{{Thermodynamics of DNA Duplex Formation}}
+  \field{volume}{77}
   \verb{file}
-  \verb ../eddy2004.pdf
+  \verb ../howard2000.pdf
   \endverb
-  \field{journaltitle}{Nature Biotechnology}
-  \field{year}{2004}
+  \field{journaltitle}{Journal of Chemical Education}
+  \field{annotation}{%
+  This Journal of Chemical Education article shows in a practical fashion all
+  the details to measure the enthalpy, entropy, and Gibbs free-enery for DNA
+  melting. This experiment provides the main data allowing to score secondary
+  structure folding algorithms. The meaning of a Van't Hoff plot is shown in a
+  very clear manner.%
+  }
+  \field{year}{2000}
 \endentry
 
 \lossort

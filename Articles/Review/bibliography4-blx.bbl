@@ -16,44 +16,48 @@
   {}
 \endgroup
 
-\entry{avihoo2011}{article}{}
+\entry{harmanci2007}{article}{}
   \name{author}{3}{}{%
     {{}%
-     {Avihoo}{A.}%
-     {Assaf}{A.}%
+     {Harmanci}{H.}%
+     {Arif~Ozgun}{A.~O.}%
      {}{}%
      {}{}}%
     {{}%
-     {Churkin}{C.}%
-     {Alexander}{A.}%
+     {Sharma}{S.}%
+     {Gaurav}{G.}%
      {}{}%
      {}{}}%
     {{}%
-     {Barash}{B.}%
-     {Danny}{D.}%
+     {Mathews}{M.}%
+     {David~H.}{D.~H.}%
      {}{}%
      {}{}}%
   }
-  \keyw{Algorithms; Base Sequence; Molecular Sequence Data; Nucleic Acid
-  Conformation; RNA Folding; RNA, chemistry/genetics; Software; Thermodynamics}
-  \strng{namehash}{AACABD1}
-  \strng{fullhash}{AACABD1}
-  \field{sortinit}{A}
+  \keyw{Models, Statistical; Predictive Value of Tests; RNA,
+  chemistry/genetics; Sequence Alignment, methods; Sequence Analysis, RNA,
+  methods; Software}
+  \strng{namehash}{HAOSGMDH1}
+  \strng{fullhash}{HAOSGMDH1}
+  \field{sortinit}{2}
   \verb{doi}
-  \verb 10.1186/1471-2105-12-319
+  \verb 10.1186/1471-2105-8-130
   \endverb
-  \field{pages}{319}
-  \field{title}{R{NAexinv: An Extended Inverse RNA Folding from Shape and
-  Physical Attributes to Sequences}}
+  \field{pages}{130}
+  \field{title}{{Efficient pairwise RNA structure prediction using
+  probabilistic alignment constraints in Dynalign}}
   \verb{url}
-  \verb http://dx.doi.org/10.1186/1471-2105-12-319
+  \verb http://dx.doi.org/10.1186/1471-2105-8-130
   \endverb
-  \field{volume}{12}
+  \field{volume}{8}
+  \list{institution}{1}{%
+    {>}%
+  }
   \verb{file}
-  \verb ../avihoo2011.pdf
+  \verb ../harmanci2007.pdf
   \endverb
   \field{journaltitle}{BMC Bioinformatics}
-  \field{year}{2011}
+  \field{year}{2007}
 \endentry
 
 \lossort

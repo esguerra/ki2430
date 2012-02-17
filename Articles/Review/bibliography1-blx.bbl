@@ -16,49 +16,6 @@
   {}
 \endgroup
 
-\entry{nussinov1978}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Nussinov}{N.}%
-     {Ruth}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Pieczenik}{P.}%
-     {George}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Griggs}{G.}%
-     {Jerrold~R.}{J.~R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kleitman}{K.}%
-     {Daniel~J.}{D.~J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{NR+1}
-  \strng{fullhash}{NRPGGJRKDJ1}
-  \field{sortinit}{N}
-  \field{pages}{68\bibrangedash 82}
-  \field{title}{{Algorithms for Loop Matchings}}
-  \field{volume}{35}
-  \verb{file}
-  \verb ../nussinov1978.pdf
-  \endverb
-  \field{journaltitle}{SIAM Journal on Applied Mathematics}
-  \field{annotation}{%
-  Here the algorithm to find the maximum number of base-pairs is presented for
-  the first time. The previous papers of Tinoco and Uhlenbeck did not aim at
-  solving the dynamic programing problem but were only interested in computing
-  a free-energy based score assuming that single base-pair energies could be
-  additive.%
-  }
-  \field{year}{1978}
-\endentry
-
 \entry{tinoco1971}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -81,7 +38,7 @@
   analysis; Polynucleotides, analysis; RNA, analysis; Thermodynamics}
   \strng{namehash}{TIUOCLMD1}
   \strng{fullhash}{TIUOCLMD1}
-  \field{sortinit}{T}
+  \field{sortinit}{1}
   \field{pages}{362\bibrangedash 367}
   \field{title}{{Estimation of Secondary Structure in Ribonucleic Acids}}
   \field{volume}{230}
@@ -138,7 +95,7 @@
   Oligonucleotides; RNA; RNA, Viral; Thermodynamics}
   \strng{namehash}{TI+1}
   \strng{fullhash}{TIBPNDBLMDUOCCDMBJ1}
-  \field{sortinit}{T}
+  \field{sortinit}{1}
   \field{pages}{40\bibrangedash 41}
   \field{title}{{Improved Estimation of Secondary Structure in Ribonucleic
   Acids}}
@@ -148,6 +105,49 @@
   \endverb
   \field{journaltitle}{Nature New Biology}
   \field{year}{1973}
+\endentry
+
+\entry{nussinov1978}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Nussinov}{N.}%
+     {Ruth}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pieczenik}{P.}%
+     {George}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Griggs}{G.}%
+     {Jerrold~R.}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kleitman}{K.}%
+     {Daniel~J.}{D.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NR+1}
+  \strng{fullhash}{NRPGGJRKDJ1}
+  \field{sortinit}{1}
+  \field{pages}{68\bibrangedash 82}
+  \field{title}{{Algorithms for Loop Matchings}}
+  \field{volume}{35}
+  \verb{file}
+  \verb ../nussinov1978.pdf
+  \endverb
+  \field{journaltitle}{SIAM Journal on Applied Mathematics}
+  \field{annotation}{%
+  Here the algorithm to find the maximum number of base-pairs is presented for
+  the first time. The previous papers of Tinoco and Uhlenbeck did not aim at
+  solving the dynamic programing problem but were only interested in computing
+  a free-energy based score assuming that single base-pair energies could be
+  additive.%
+  }
+  \field{year}{1978}
 \endentry
 
 \lossort
