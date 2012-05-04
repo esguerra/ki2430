@@ -7,15 +7,17 @@ from installation of the software to practical examples.
 \section{Installation}
 To install 3DNA you will first have to download the software from:\\
 
-\url{http://adna.rutgers.edu}\\
+\url{http://forum.x3dna.org/downloads/3dna-download}\\
 
 \noindent The webpage will ask you to register before allowing you to
 download the program.\\
-Once   registered    you'll   be    able   to   download    the   file
-\textbf{Linux\_X3DNA\_v2.0.tar.gz} if you  selected the Linux version.\\
+Once registered you'll be able  to download the file which corresponds
+to your  operating system.  If you download  the Linux  64-bit version
+your     file     will            be            named
+\textbf{x3dna-v2.1beta-linux-64bit-2012may02.tar.gz}\\
 To uncompress, issue the following command in a terminal:
 \begin{Verbatim}
-tar -xvzf Linux_X3DNA_v2.0.tar.gz
+tar -xvzf x3dna-v2.1beta-linux-64bit-2012may02.tar.gz
 \end{Verbatim}
 This will create a new folder named \textbf{X3DNA} which you will have
 to  include  in your  environment  variables  by  changing your  shell
@@ -135,6 +137,18 @@ step  parameters, that  is, using  the  original \textit{bp\_step.par}
 file. Open  both structures in  a molecular visualization  program and
 confirm that one helix is undertwisted with respect to the original.
 
+\section{blocview}
+Blocview is a perl script  which calls various 3DNA functionalities as
+well  as  raster3D, molscript,  and  pymol  to  generate an  automated
+picture. Since  blocview is just a  script it can  be easily modified,
+for example, following row 83 which invokes get\_part -c (an
+undocumented command that creates a molscript header) one  can add a
+line to change the inner color of protein ribbons:
+\begin{Verbatim}
+# change inner color of ribbons from default 0.8
+system("sed 's/grey 0.8/grey 0.5/g' temp2a > temp2");
+\end{Verbatim}
+
 \section{Exercises}
 \begin{enumerate}
 \item{Run   \textrm{find\_pair}  and  \textrm{analyze}   on  your  A-RNA
@@ -161,6 +175,23 @@ through \textrm{find\_pair} and \textrm{analyze}.}
     the structure of your choice, for example the large subunit of the
   ribosome.}
 \end{enumerate}
+
+\section{Config}
+In the config folder one can  find most of the files for configuration
+of 3DNA internals. The following are descriptions of what they do.
+
+\subsection{col\_chain.dat}
+This file specifies color defaults  for the molscript files which 3DNA
+produces. I don't  like to have purple proteins, so  the first thing I
+do i this  file is to change the default protein  color from purple to
+blue. I also dislike having a  wide tube to represent the nucleic acid
+backbone so I change the value from 0.8 (default) to 0.5
+
+\subsection{my\_header\_hres.r3d}
+The header file for the raster3d objects. 
+
+\subsection{my\_raster3d.par}
+The name is self-explanatory.
 
 
 

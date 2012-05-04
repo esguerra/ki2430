@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.2.2)  7 FEB 2012 14:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.2.2)  4 MAY 2012 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -507,7 +507,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--46
+Overfull \hbox (5.61049pt too wide) in paragraph at lines 12--19
+\T1/phv/m/n/10.95 down-load the Linux 64-bit ver-sion your file will be named \
+T1/phv/b/n/10.95 x3dna-v2.1beta-linux-64bit-2012may02.tar.gz 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
@@ -516,31 +522,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 68.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 68.
+(Font)              scaled to size 10.40245pt on input line 70.
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 [3]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 183.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 183.
+ [4]
 No file chapter1.bbl.
-) [4]
+) [5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (./3dna_mini_tutorial.aux (./chapter1.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `3dna_mini_tutorial.out' has not changed.
-(rerunfilecheck)             Checksum: F20D8D77BDD9A4F8F2EA8BE2F443E9B2;262.
+(rerunfilecheck)             Checksum: C7D021F1E4FC32C1A731B3A01308F012;553.
  ) 
 Here is how much of TeX's memory you used:
- 7459 strings out of 495051
- 106298 string characters out of 3181496
- 196306 words of memory out of 3000000
- 10491 multiletter control sequences out of 15000+200000
- 33001 words of font info for 56 fonts, out of 3000000 for 9000
+ 7473 strings out of 495051
+ 106467 string characters out of 3181496
+ 196307 words of memory out of 3000000
+ 10498 multiletter control sequences out of 15000+200000
+ 35731 words of font info for 58 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  29i,7n,31p,259b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
@@ -551,10 +562,10 @@ ype1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helve
 tic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on 3dna_mini_tutorial.pdf (4 pages, 112749 bytes).
+Output written on 3dna_mini_tutorial.pdf (5 pages, 117853 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
